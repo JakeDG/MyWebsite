@@ -21,7 +21,7 @@ namespace MyWebsite.Controllers
 
             people.Add(new PersonModel { FirstName = "Jacob", LastName = "Gidley", Age = 24 });
             people.Add(new PersonModel { FirstName = "Bob", LastName = "Dylan", Age = 67 });
-            people.Add(new PersonModel { FirstName = "Franco", LastName = "Livoti", Age = 29 });
+            people.Add(new PersonModel { FirstName = "Franco", LastName = "Torino", Age = 34 });
 
             return View(people);
         }
